@@ -12,5 +12,5 @@ Uses ViaVersion/ViaBackwards API.
 
 
 
-#noo u can't make plugins with fabric, use sponge or spigot!
-#haha fabric go BRRRRRRRRRRRRR
+# noo u can't make plugins with fabric, use sponge or spigot!
+## haha fabric go BRRRRRRRRRRRRR

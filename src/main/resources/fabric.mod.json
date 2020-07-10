@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "ViaFabricEnchants",
+  "version": "${version}",
+  "name": "ViaFabricEnchants",
+  "description": "Server-side mod that allows vanilla users to see and use Custom Enchantments in the item lore.",
+  "authors": [
+    "Camper_Samu"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/CamperSamu/ViaFabricEnchants",
+    "sources": "https://github.com/CamperSamu/ViaFabricEnchants"
+  },
+  "license": "MIT",
+  "icon": "assets/ViaFabricEnchants/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.campersamu.viafabricenchants.ModInit"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "ViaFabricEnchants.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.9",
+    "fabric": "*"
+  }
+}
